@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @gopi.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @gopi.email %>
+</p>
+
+<%= link_to 'Edit', edit_gopi_path(@gopi) %> |
+<%= link_to 'Back', gopis_path %>
